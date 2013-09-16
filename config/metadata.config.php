@@ -17,6 +17,17 @@ return array(
     ),
     'permission' => array(
     ),
+    'launchers' => array(
+        'novius_taskmanager' => array(
+            'name'    => 'Task manager',
+            'action' => array(
+                'action' => 'nosTabs',
+                'tab' => array(
+                    'url' => 'admin/novius_taskmanager/application',
+                ),
+            ),
+        ),
+    ),
     'i18n_file' => 'novius_taskmanager::metadata',
     'icons' => array(
         16 => 'static/apps/novius_taskmanager/img/task-16.png',
