@@ -34,7 +34,7 @@ foreach ($tasks as $module => $module_tasks) {
                 </tr>
     <?php
     foreach ($module_tasks as $task) {
-        echo render('noviusos_taskmanager::admin/item', array('task' => $task));
+        echo render('novius_taskmanager::admin/item', array('task' => $task));
     }
 }
 ?>

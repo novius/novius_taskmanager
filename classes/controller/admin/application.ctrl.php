@@ -44,11 +44,11 @@ class Controller_Admin_Application extends \Nos\Controller_Admin_Application
                 $hash = md5($site_key.'_'.$task_identifier);
                 $tasks[$module][$task_identifier] = array(
                     'identifier' => $task_identifier,
-                    'relative_url' => 'apps/noviusos_taskmanager/execute_task.php?task='.$task_identifier.'&check='.$hash
+                    'relative_url' => 'apps/novius_taskmanager/execute_task.php?task='.$task_identifier.'&check='.$hash
                 );
             }
         }
 
-        return \View::forge('noviusos_taskmanager::admin/list', array('tasks' => $tasks), false);
+        return \View::forge('novius_taskmanager::admin/list', array('tasks' => $tasks), false);
     }
 }

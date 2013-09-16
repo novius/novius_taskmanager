@@ -17,10 +17,10 @@ return array(
     ),
     'permission' => array(
     ),
-    'i18n_file' => 'noviusos_taskmanager::metadata',
+    'i18n_file' => 'novius_taskmanager::metadata',
     'icons' => array(
-        16 => 'static/apps/noviusos_taskmanager/img/task-16.png',
-        32 => 'static/apps/noviusos_taskmanager/img/task-32.png',
-        64 => 'static/apps/noviusos_taskmanager/img/task-64.png',
+        16 => 'static/apps/novius_taskmanager/img/task-16.png',
+        32 => 'static/apps/novius_taskmanager/img/task-32.png',
+        64 => 'static/apps/novius_taskmanager/img/task-64.png',
     ),
 );
